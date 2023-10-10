@@ -14,16 +14,6 @@ promoGenre.textContent = "Komediya";
 // 3-exercise
 const promoBg = document.querySelector(".promo__bg");
 
-promoBg.style.cssText =
-    'background: url("../img/1.jpg"); background-position: bottom;';
+promoBg.style.backgroundImage = 'url("img/1.jpg")';
 
 // 4-exercise
-// const seriesDB = {
-//     series: [
-//         "OMAR",
-//         "The Final Legacy",
-//         "ERTUGRUL",
-//         "MAGNIFICENT CENTURY",
-//         "GREAT SELJUKS: GUARDIANS...",
-//     ],
-// };
