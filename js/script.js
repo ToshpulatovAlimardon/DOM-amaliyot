@@ -20,19 +20,20 @@ promoBg.style.backgroundImage = 'url("img/1.jpg")';
 const seriesList = document.querySelector(".promo__interactive-list");
 const seriesDb = {
     series: [
-        "Omar",
+        "OMAR",
         "The Final Legacy",
-        "Ertugrul",
-        "Magnificent Century",
-        "The Great Seljuks: Guardians...",
+        "ERTUGRUL",
+        "MAGNIFICENT CENTURY",
+        "GREAT SELJUKS: GUARDIANS...",
     ],
 };
 
 seriesList.innerHTML = "";
 seriesDb.series.forEach((item, index) => {
     seriesList.innerHTML += `
-    <li class="promo__interactive-item"> ${index + 1} ${item}
-        <div class="delete"></div>
-    </li>
+        <li class="promo__interactive-item">
+            ${index + 1} - ${item}
+            <div class="delete"></div>
+        </li>
     `;
 });
